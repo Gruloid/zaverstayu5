@@ -1,0 +1,52 @@
+/* Global */
+
+body{
+  min-width: 1400px;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;  
+  line-height: 167%;
+  background-color: #E5E5E5;
+  color: #533738;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+.header {
+  background-color: #EFE6E4;
+}
+.header-container {
+}
+.header-logo {
+}
+.site-nav {
+  
+}
+.nav-item {
+  list-style: none;
+ 
+}
+.nav-link {
+  line-height: 20px;
+  color: #533738;
+}
+.phone a{
+  line-height: 20px;
+  color: #533738;
+}
+
+/* Main */
+
+
