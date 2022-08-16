@@ -6,6 +6,7 @@ body{
   padding: 0px;
   margin: 0px;
   font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;  
   line-height: 167%;
@@ -42,11 +43,98 @@ img{
   line-height: 20px;
   color: #533738;
 }
-.phone a{
+.phone {
   line-height: 20px;
   color: #533738;
 }
 
 /* Main */
+.promo {
+  background-color: #EFE6E4;
+  background-image: url(../img/bg_promo.jpg);
+}
+.container {
+}
+.main-heading {
+font-weight: 400;
+font-size: 50px;
+line-height: 124%;
+}
+.promo-description {
+}
+.button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
 
+}
 
+.button-request{
+  background-color: #CC8B86;
+}
+
+.second-header {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.about {
+  background-color: #EFE6E4;
+}
+
+.about-results {
+  background-color: #8D7370;
+}
+.about-results dl {
+  color: #ffffff;
+}
+
+.portfolio {
+  background-color: #EFE6E4;
+}
+
+.portfolio-link {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #533738;
+}
+
+.portfolio-list {
+  
+}
+
+.portfolio-item {
+  list-style: none;
+}
+
+.team {
+  background-color: #E2C4BA;
+}
+
+.we-work {
+  background-color: #E2C4BA;
+}
+
+.reviews {
+  background-color: #EFE6E4;
+}
+
+.request {
+  background-color: #8D7370;
+}
+
+.header-request {
+  color: #ffffff;
+}
+
+.request-text {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #EFE6E4;
+}
