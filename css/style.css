@@ -3,8 +3,8 @@
 body{
   min-width: 1400px;
   height: 100vh;
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0px;
+  margin: 0px; */
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -50,10 +50,12 @@ img{
 
 /* Main */
 .promo {
+  /* height: 715px; */
   background-color: #EFE6E4;
   background-image: url(../img/bg_promo.jpg);
 }
 .container {
+  
 }
 .main-heading {
 font-weight: 400;
