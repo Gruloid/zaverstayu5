@@ -1,16 +1,17 @@
 /* Global */
 
-body{
+.page-body{
   min-width: 1400px;
   height: 100vh;
-  /* padding: 0px;
-  margin: 0px; */
+  padding: 0px;
+  margin: 0px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;  
-  line-height: 167%;
-  background-color: #E5E5E5;
+  line-height: 30px;
+  /* background-color: #E5E5E5; */
+  background-color: black;
   color: #533738;
 }
 
@@ -25,16 +26,23 @@ img{
 
 /* Header */
 
-.header {
+.main-header {
   background-color: #EFE6E4;
+  /* margin-bottom: -33px; */
 }
 .header-container {
 }
 .header-logo {
 }
 .site-nav {
-  
+
 }
+
+.nav-list {
+  padding: 0px;
+  margin: 0px;
+}
+
 .nav-item {
   list-style: none;
  
@@ -50,17 +58,21 @@ img{
 
 /* Main */
 .promo {
-  /* height: 715px; */
+  /* width: 1400px;
+  height: 715px; */
+  /* margin-bottom: -32px; */
   background-color: #EFE6E4;
   background-image: url(../img/bg_promo.jpg);
+  background-repeat: no-repeat;
 }
 .container {
   
 }
 .main-heading {
+  margin: 0px;
 font-weight: 400;
 font-size: 50px;
-line-height: 124%;
+line-height: 62px;
 }
 .promo-description {
 }
@@ -77,28 +89,35 @@ line-height: 124%;
 }
 
 .second-header {
+  margin: 0px;
   font-weight: 400;
   font-size: 40px;
-  line-height: 125%;
+  line-height: 50px;
   text-transform: uppercase;
 }
 
 .about {
   background-color: #EFE6E4;
+  /* margin-bottom: -32px; */
 }
 
 .about-results {
+  
+
   background-color: #8D7370;
 }
 .about-results dl {
+  margin: 0px;
   color: #ffffff;
 }
 
 .portfolio {
+  /* margin-bottom: -33px; */
   background-color: #EFE6E4;
 }
 
 .portfolio-link {
+
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
@@ -106,7 +125,8 @@ line-height: 124%;
 }
 
 .portfolio-list {
-  
+  margin: 0px;
+  padding: 0px;
 }
 
 .portfolio-item {
@@ -114,15 +134,30 @@ line-height: 124%;
 }
 
 .team {
+  /* margin-bottom: -34px; */
   background-color: #E2C4BA;
+}
+
+.team-list p {
+  margin: 0px;
 }
 
 .we-work {
+  /* margin-bottom: -33px; */
   background-color: #E2C4BA;
 }
 
+.we-work-list {
+  margin: 0px;
+}
+
 .reviews {
+  /* margin-bottom: -33px; */
   background-color: #EFE6E4;
+}
+
+.comment {
+  margin: 0px;
 }
 
 .request {
@@ -131,6 +166,10 @@ line-height: 124%;
 
 .header-request {
   color: #ffffff;
+}
+
+.request-form {
+
 }
 
 .request-text {
