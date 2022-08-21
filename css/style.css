@@ -1,17 +1,19 @@
 /* Global */
 
 .page-body{
+  width: 1400px;
   min-width: 1400px;
   height: 100vh;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;  
   line-height: 30px;
-  /* background-color: #E5E5E5; */
-  background-color: black;
+  background-color: #E5E5E5;
+  
+
   color: #533738;
 }
 
@@ -26,37 +28,67 @@ img{
 
 /* Header */
 
-.main-header {
+.page-header {
   background-color: #EFE6E4;
   /* margin-bottom: -33px; */
 }
 .header-container {
+  width: 1200px;
+  height: 25px;
+  margin: 0 auto;
+  display: flex;  
+
 }
 .header-logo {
+  align-self: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
-.site-nav {
 
+
+.site-nav {
+  align-self: center;
 }
 
 .nav-list {
   padding: 0px;
   margin: 0px;
+  display: flex;
 }
 
 .nav-item {
+  
+  padding-right: 26px;
   list-style: none;
  
 }
 .nav-link {
-  line-height: 20px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
   color: #533738;
 }
-.phone {
+.phone{
+  align-self: center;
+}
+.phone-number {
+  font-weight: 400;
+  font-size: 16px;
   line-height: 20px;
   color: #533738;
 }
 
 /* Main */
+.page-main {
+  /* display: grid; 
+  grid-template-columns: 100%; 
+  grid-template-rows: 715px repeat(6, 1fr); 
+  gap: 0px 0px; 
+  justify-items: center;  */
+
+}
 .promo {
   /* width: 1400px;
   height: 715px; */
@@ -66,6 +98,8 @@ img{
   background-repeat: no-repeat;
 }
 .container {
+  width: 1036px;
+  margin: 0 auto;
   
 }
 .main-heading {
@@ -88,7 +122,7 @@ line-height: 62px;
   background-color: #CC8B86;
 }
 
-.second-header {
+.second-heading {
   margin: 0px;
   font-weight: 400;
   font-size: 40px;
@@ -127,19 +161,46 @@ line-height: 62px;
 .portfolio-list {
   margin: 0px;
   padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 .portfolio-item {
-  list-style: none;
+    margin-right: 20px;
 }
+
+/* .portfolio-item::last-child {
+  margin-right: -20px;
+} */
 
 .team {
   /* margin-bottom: -34px; */
   background-color: #E2C4BA;
 }
 
-.team-list p {
+.team-list {
+  padding: 0px;
   margin: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.team-item {
+  margin-right: 38px;
+}
+
+.team-item:last-child {
+  margin-right: 0px;
+}
+
+.team-item p{
+  display: block;
+  width: 320px;
 }
 
 .we-work {
@@ -176,6 +237,6 @@ line-height: 62px;
   color: #ffffff;
 }
 
-.footer {
+.page-footer {
   background-color: #EFE6E4;
 }
