@@ -16,7 +16,7 @@
     <div class="wide-container">
       <div class="header-nav">
         <div class="header-logo">
-          <img src="img/logo.png" alt="Логотип" width="25" height="25">SCANDI
+          <img src="img/logo.png" class="logo-img" alt="Логотип" width="25" height="25">SCANDI
         </div>
         <nav class="site-nav">
           <ul class="nav-list">
@@ -46,12 +46,14 @@
     <section class="about" id="about">
       <div class="container">
         <h2 class="second-heading">О нас</h2>
-        <img src="img/about.png" alt="Сервированный стол" width="444" height="465">
-        <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
-          Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,
-          что по-настоящему вдохновляет дизайнеров нашей студии.
-          Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
-          « Да! Это именно то, что действительно достойно моего дома!»</p>
+        <div class="about-wrapper">
+          <img src="img/about.png" alt="Сервированный стол" width="444" height="465">
+          <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива.
+            Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то,
+            что по-настоящему вдохновляет дизайнеров нашей студии.
+            Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать:
+            « Да! Это именно то, что действительно достойно моего дома!»</p>
+        </div>
       </div>
       <div class="about-results">
         <div class="container">
@@ -126,26 +128,27 @@
         <h2 class="second-heading">Отзывы</h2>
         <div class="reviews-slider">
           <ul class="reviews-list">
-<li class="reviews-item">
+            <li class="reviews-item">
               <!-- <button><img src="img/Arrow_small.svg" alt="Предыдущий отзыв" width="33" height="16"></button> -->
               <blockquote>
-                <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
-               <p>
+                <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего
+                  дома.</p>
+                <p>
                   Работа шла быстро, было очень приятно общаться и взаимодействовать
                   с сотрудниками. Не ожидала, что это будет так легко!
-               </p>
-               <p> Буду советовать и своим друзьям к вам обращаться!»</p>
-               <cite>АННА БЕЛОВСКАЯ</cite>
+                </p>
+                <p> Буду советовать и своим друзьям к вам обращаться!»</p>
+                <cite>АННА БЕЛОВСКАЯ</cite>
               </blockquote>
               <div class="reviews-img">
-                
+
                 <img src="img/review/room.jpg" alt="Комната" width="407" height="272">
                 <img src="img/review/kitchen.jpg" alt="Кухня" width="407" height="272">
               </div>
               <div class="slider-buttons">
                 <button class="slider-button slider-button-prev" type="button"></button>
                 <button class="slider-button slider-button-next" type="button"></button>
-                
+
               </div>
               <!-- <button><img src="img/Arrow_small.svg" alt="Следующий отзыв" width="33" height="16"></button> -->
 
@@ -158,19 +161,18 @@
       <div class="request-page">
         <div class="request-text">
           <h2 class="second-heading header-request">Оставить заявку</h2>
-          <p>Оставьте свои контакты. Менеджер перезвонит
+          <p>Оставьте свои контакты. Менеджер перезвонит <br>
             в удобное вам время и ответит на все вопросы.</p>
-        </div>
-        <div>
           <form class="request-form" action="https://echo.htmlacademy.ru" method="post">
             <p> <input type="text" name="name" id="user-name" placeholder="Ваше имя"></p>
             <p> <input type="text" name="tel" id="user-tel" placeholder="Введите телефон"></p>
             <p> <button class="button button-request">Оставить заявку</button></p>
           </form>
         </div>
+        <div> 
+          <img src="img/map.png" alt="Карта" width="590" height="624">
+        </div>
       </div>
-      <div> <img src="img/map.png" alt="Карта" width="590" height="624"></div>
-
     </section>
   </main>
 

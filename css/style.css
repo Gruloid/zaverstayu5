@@ -49,7 +49,10 @@ img {
   display: flex;
   align-items: baseline;
 }
-
+.logo-img {
+  position: relative;
+  top: 5px;
+}
 .header-logo {
   /* align-self: center; */
   /* font-weight: 400; */
@@ -169,6 +172,11 @@ img {
 .about {
   background-color: #EFE6E4;
   /* margin-bottom: -32px; */
+}
+.about-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .about-results {
@@ -343,24 +351,28 @@ blockquote cite {
 }
 
 .request {
-  display: flex;
+
   background-color: #8D7370;
 }
 
 .header-request {
+  /* display: block; */
   color: #ffffff;
 }
 
 .request-page {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .request-form {}
 
 .request-text {
-
-  color: #ffffff;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start; */
+  color: #ffffff; 
 }
 
 .page-footer {
